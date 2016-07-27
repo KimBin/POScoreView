@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var starScoreView:POScoreView!  //打分的view
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        starScoreView = POScoreView(frame: CGRect(x: 0, y: 100, width: 300, height: 60))
+        starScoreView.centerX = self.view.centerX
+        self.view.addSubview(starScoreView)
+        
+        self.view.backgroundColor = UIColor.grayColor()
+        
     }
 
     override func didReceiveMemoryWarning() {

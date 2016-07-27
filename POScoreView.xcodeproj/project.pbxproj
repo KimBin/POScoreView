@@ -12,6 +12,8 @@
 		84ACFB8F1D488487006873D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ACFB8D1D488487006873D1 /* Main.storyboard */; };
 		84ACFB911D488487006873D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84ACFB901D488487006873D1 /* Assets.xcassets */; };
 		84ACFB941D488487006873D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84ACFB921D488487006873D1 /* LaunchScreen.storyboard */; };
+		84E66F341D48FC410024952A /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E66F331D48FC410024952A /* ProtocolExtensions.swift */; };
+		84E66F381D48FCAB0024952A /* POScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E66F371D48FCAB0024952A /* POScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84ACFB901D488487006873D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84ACFB931D488487006873D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84ACFB951D488487006873D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E66F331D48FC410024952A /* ProtocolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolExtensions.swift; sourceTree = "<group>"; };
+		84E66F371D48FCAB0024952A /* POScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				84ACFB891D488487006873D1 /* AppDelegate.swift */,
 				84ACFB8B1D488487006873D1 /* ViewController.swift */,
+				84E66F331D48FC410024952A /* ProtocolExtensions.swift */,
+				84E66F371D48FCAB0024952A /* POScoreView.swift */,
 				84ACFB8D1D488487006873D1 /* Main.storyboard */,
 				84ACFB901D488487006873D1 /* Assets.xcassets */,
 				84ACFB921D488487006873D1 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84ACFB8C1D488487006873D1 /* ViewController.swift in Sources */,
+				84E66F341D48FC410024952A /* ProtocolExtensions.swift in Sources */,
+				84E66F381D48FCAB0024952A /* POScoreView.swift in Sources */,
 				84ACFB8A1D488487006873D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +294,7 @@
 				84ACFB9A1D488487006873D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
