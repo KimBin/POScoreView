@@ -1,5 +1,5 @@
 # scoreView
-A powerful protocol-oriented view for different star/partterns
+A powerful protocol-oriented view for different star/parterns
 
 **Please "Star" the project on GitHub to help it to survive!**
 
